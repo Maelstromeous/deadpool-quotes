@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div id="container">
+            <h1>Random Deadpool Quote Generator!</h1>
+        </div>
+        <div id="character">
+            <img src="/assets/img/deadpool.jpg">
+            <span id="quote">{{ quote }}</span>
+        </div>
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+    <link href="/assets/css/page.css" rel="stylesheet">
+{% endblock %}
